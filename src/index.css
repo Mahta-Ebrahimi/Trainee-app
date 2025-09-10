@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Mochiy+Pop+P+One&family=Montserrat&family=Oleo+Script+Swash+Caps&display=swap');
+
+body {
+    margin: 0;
+    font-family:"Arial";
+  }
+
+  progress::-moz-progress-bar {
+    background: #f4a88e;
+    width: 100px;
+  }
+  progress::-webkit-progress-value {
+    background: #f4a88e;
+    width: 100px;
+  }
+  progress {
+    color: #f4a88e;
+    width: 100px;
+  }
+  
